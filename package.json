@@ -1,0 +1,21 @@
+{
+  "name": "actions-demo-portfolio",
+  "version": "1.0.0",
+  "description": "GitHub Actions and Codespaces demo in Vanilla JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D1M1TR10S/Actions-Demo-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D1M1TR10S/Actions-Demo-Portfolio/issues"
+  },
+  "homepage": "https://github.com/D1M1TR10S/Actions-Demo-Portfolio#readme",
+  "keywords": []
+}
