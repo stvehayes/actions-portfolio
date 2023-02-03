@@ -96,6 +96,7 @@ label {
 .section {
   margin: 10rem 0;
   width: 100%;
+  padding-top: 3rem;
 }
 
 .section-sm {
