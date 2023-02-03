@@ -1,12 +1,14 @@
 /* Make a CSS variable */
 :root {
   --font: "Mona Sans", sans-serif;
-  --font-size: 1.25rem;
+  --font-size: 1.5rem;
   --bg: linear-gradient(
-    180deg,
-    #0d1117 0%,
-    #0d0d0f 21%,
-    #181426 63.5%,
+    150deg,
+    #14121e 0%,
+    #0d1117 10%,
+    #0d0d0f 20%,
+    #181426 65%,
+    #0d1117 80%,
     #101013 100%
   );
   --bg-default: #0d1117;
@@ -40,7 +42,7 @@ p {
   color: var(--fg-subtle);
   font-family: var(--font);
   margin-top: 0;
-  font-size: 1.25rem;
+  font-size: var(--font-size);
   line-height: 1.6;
 }
 
@@ -153,8 +155,8 @@ label {
 }
 
 .logo {
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 /* Footer */
@@ -174,6 +176,7 @@ label {
 /* Buttons */
 .button {
   cursor: pointer;
+  font-family: var(--font);
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   color: var(--fg-default);
@@ -230,9 +233,6 @@ label {
 }
 
 .project-image {
-  max-width: 700px;
-  width: 100%;
-  height: auto;
   background: var(--bg-default);
   border: 1px solid var(--border);
   box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.24);
@@ -241,7 +241,7 @@ label {
 }
 
 .project-icon {
-  width: 3rem;
+  width: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -254,7 +254,7 @@ label {
   width: 100%;
   border-radius: 0.5rem;
   border: 1px solid var(--border);
-  background: var(--bg-default);
+  background: transparent;
   transition: all 150ms ease-in-out;
 }
 
@@ -368,8 +368,14 @@ input::-webkit-input-placeholder {
   .section-xs {
     text-align: left;
   }
+
   .social-icons {
     justify-content: left;
+  }
+
+  .logo {
+    height: 2rem;
+    width: 2rem;
   }
 
   .flex {
