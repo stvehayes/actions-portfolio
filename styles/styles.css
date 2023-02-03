@@ -254,6 +254,7 @@ label {
   border-radius: 0.5rem;
   border: 1px solid var(--border);
   background: var(--bg-default);
+  transition: all 150ms ease-in-out;
 }
 
 input:-ms-input-placeholder {
@@ -269,6 +270,11 @@ input:-ms-input-placeholder,
 input::-moz-placeholder,
 input::-webkit-input-placeholder {
   color: var(--fg-subtle);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--fg-default);
 }
 
 /* Skills chart */
